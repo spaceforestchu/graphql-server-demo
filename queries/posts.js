@@ -3,7 +3,6 @@ import { connection } from "./connection.js";
 const PostsTable = () => connection.table("posts");
 
 export async function getAllPosts() {
-  console.log(await PostsTable().select());
   return await PostsTable().select();
 }
 
