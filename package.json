@@ -1,0 +1,26 @@
+{
+  "name": "graphql-commit",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "pg:init": "node database/create-db.js",
+    "pg:seed": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.0.1",
+    "nanoid": "^5.0.3",
+    "pg": "^8.11.3"
+  }
+}
